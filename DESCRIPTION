@@ -1,0 +1,16 @@
+Package: arma64bit
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0.9000
+Date: 2016-04-28
+Authors@R: person("George", "Vega Yon", email="g.vegayon@gmail.com", role=c("aut", "cre"))
+Description: A toy package to test using ARMA_64BIT_WORD in RcppArmadillo.
+License: MIT + file LICENSE
+LazyData: TRUE
+Imports:
+    Rcpp (>= 0.12.4),
+    Matrix
+LinkingTo: Rcpp,
+    RcppArmadillo
+RoxygenNote: 5.0.1.9000
+Suggests: covr
