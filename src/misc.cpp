@@ -25,7 +25,6 @@ arma::sp_mat sp_copy(arma::sp_mat & mat) {
   arma::sp_mat::const_iterator begin = mat.begin();
   arma::sp_mat::const_iterator end   = mat.end();
 
-  int i = 0;
   for (arma::sp_mat::const_iterator it = begin; it != end; ++it) {
     newmat.at(it.row(), it.col()) = *it;
   }
