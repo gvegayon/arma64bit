@@ -1,5 +1,5 @@
 // [[Rcpp::depends(RcppArmadillo)]]
-// #define ARMA_64BIT_WORD
+#define ARMA_64BIT_WORD
 #include <RcppArmadillo.h>
 using namespace Rcpp;
 
