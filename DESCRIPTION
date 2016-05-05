@@ -12,5 +12,6 @@ Imports:
     Matrix
 LinkingTo: Rcpp,
     RcppArmadillo
-RoxygenNote: 5.0.1.9000
-Suggests: covr
+RoxygenNote: 5.0.1
+Suggests:
+    covr, devtools, RcppArmadillo
